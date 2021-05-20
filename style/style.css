@@ -3,3 +3,7 @@
     padding: 0px;
     outline:1px solid pink;
 }
+.container{
+    width: 150px;
+    height: 400px;
+}
