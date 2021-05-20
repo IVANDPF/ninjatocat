@@ -4,24 +4,33 @@
     outline:1px solid pink;
 }
 .container{
+    width: 170px;
+    height: 450px;
+}
+.box0{
     width: 150px;
     height: 400px;
+    display: block;
 }
 .box1{
     width: 150px;
     height: 400px;
+    display: block;
 }
-.box1{
+.box2{
     width: 150px;
     height: 400px;
+    display: block;
 }
-.box1{
+.box3{
     width: 150px;
     height: 400px;
+    display: block;
 }
-.box1{
+.box4{
     width: 150px;
     height: 400px;
+    display: block;
 }
 .cat0{
     width: 150px;
