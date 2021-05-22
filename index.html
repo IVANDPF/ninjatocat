@@ -11,9 +11,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/transicion.js"></script>
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <title>Ninja To cat</title>
-
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css">
+    <title>Ninja To Cat Animation</title>
 </head>
 
 <body>
@@ -33,7 +32,25 @@
         <div class="box4">
             <img class="cat" src="img/ninja4.png" data-alt-src="img/cat4.png" id="box4">
         </div>
-
+        <br/>
+        <div class="panel callout radius">
+            <p>Reloj que se actualiza cada segundo:</p>
+            <p id="reloj"></p>
+        </div>
+        <p>
+            Tiempo de transición:
+            <input type="number" id="intervalo" value="500" minvalue="1" >
+        </p>
+        <p>
+            <button class="button" id="una_animacion" >Una animación</button>
+        </p>
+        <p>
+            <button class="button" id="iniciar_animacion" onClick="iniciar_animacion()">Iniciar animación</button>
+            <button class="button" id="detener_animacion" onClick="detener_animacion()">Detener animación</button>
+        </p>
+        <p>
+            <button class="button" id="reiniciar" onClick="reiniciar()">Reiniciar</button>
+        </p>
     </div>
     <footer>
         <p>Author: Coding Dojo Ecuador</p>
